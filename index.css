@@ -1,0 +1,643 @@
+/* top part of webpage  */
+
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:active{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+}
+
+
+.nike {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.category {
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+
+}
+
+.blank3 {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content:center;
+    
+
+
+}
+
+.images {
+    width: 100%;
+}
+
+.hnike {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hcontact {
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.dropbox-content{
+    position: relative;
+    display: none;
+}
+.fa-solid{
+    height:29px;
+    width:50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+    
+
+}
+.dropbox{
+    width: 150px;
+    position: absolute;
+    display: none;
+    /* z-index: 12; */
+    background-color: white;
+    border: 4px solid black;
+    top: 30px;
+
+}
+.dropbox-content:hover .dropbox{
+    display: block;
+    
+}
+
+.divi{
+    height: 550px;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    margin-top: 10px;
+}
+.scroll {
+    height: 550px;
+    width: 30%;
+    background-color:rgb(255, 255, 255);
+    overflow: scroll;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 10px;
+
+
+}
+
+
+.imagedivi{
+    height: 550px;
+    width: 70%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+        height: 41%;
+        width: 22%;
+        margin: 5px;
+        box-shadow: 5px 5px 5px rgb(71, 71, 71);
+        border: 1px solid rgb(133, 128, 128);
+
+        
+}
+.asd1{
+    background-image: url(./nikeimages/nike1.webp);
+    background-size: 100% 100%; 
+
+}
+.asd2{
+    background-image: url(./nikeimages/nnike2.jpeg);
+    background-size: 100% 100%; 
+
+}
+.asd3{
+    background-image: url(./nikeimages/nnike3.webp);
+    background-size: 100% 100%;
+}
+.asd4{
+    background-image: url(./nikeimages/nnike4.webp);
+    background-size: 100% 100%; 
+}
+    
+.asd5{
+    background-image: url(./nikeimages/nike4.webp);
+    background-size: 100% 100%; 
+}
+.asd6{
+    background-image: url(./nikeimages/nnike6.jpg);
+    background-size: 100% 100%;
+}
+.asd7{
+    background-image: url(./nikeimages/nike2.webp);
+    background-size: 100% 100%;
+}
+.asd8{
+    background-image: url(./nikeimages/nike3.webp);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+li {
+    font-size: 130%;
+    line-height: 33px;
+}
+
+
+/* zone second of wepage */
+
+.zone2 {
+    height: 755px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px 0px 0px 10px;
+
+}
+
+.jordan {
+    height: 750px;
+    width: 50%;
+    background-color: rgb(238, 221, 194);
+    border: 2px solid rgb(255, 255, 255);
+    margin:0px;
+    padding: 0px;
+    }
+
+.animation {
+    height: 750px;
+    width: 50%;
+    background-color: rgb(30, 29, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+
+
+}
+
+.hpunchline {
+    font-size: 300%;
+    margin-top:0px;
+    display: inline-block;
+
+}
+
+
+.shoes {
+    height:300px;
+    width: 300px;
+    background-color: rgb(236, 214, 178);
+    background-image: url(./nikeimages/air1.jpg);
+    background-size: 100% 100%;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.shoes:hover {
+    transform: perspective(600px) scale3d(1.1, 1.1, 1.1);
+}
+
+.btnshopnow {
+    height: 50px;
+    width:100px;
+    border: none;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    border-radius: 10px;
+    margin: 34px 0px 0px 18px;
+
+}
+
+.anim {
+    height: 70px;
+    width:500px;
+    background-color: aqua;
+    margin: 30px 0px 15px 110px;
+
+}
+
+.at1 {
+    background-color: skyblue;
+    margin-top: 122px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+
+
+}
+
+.at2 {
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+.at3 {
+    background-color: floralwhite;
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+.at4 {
+    background-color: orange;
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+.at5 {
+    background-color: purple;
+    text-align: center;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+}
+
+/* hover effect of animation effect */
+
+.at1:hover {
+    background-color: rgb(94, 182, 216);
+    transform: scalex(1.2);
+    transition: all 0.5s;
+}
+
+.at2:hover {
+    background-color: rgb(192, 192, 15);
+    transform: scalex(1.2);
+    transition: all 0.5s;
+}
+
+.at3:hover {
+    background-color: rgb(215, 208, 193);
+    transform: scalex(1.2);
+    transition: all 0.5s;
+}
+
+.at4:hover {
+    background-color: rgb(188, 126, 10);
+    transform: scalex(1.2);
+    transition: all 0.5s;
+}
+
+.at5:hover {
+    background-color: rgb(102, 6, 102);
+    transform: scalex(1.2);
+    transition: all 0.5s;
+}
+
+/* zone 3 stated from here */
+
+.zone3 {
+    height: 350px;
+    width: 100%;
+    border: 2px solid rgb(97, 97, 97);
+    text-align: center;
+}
+
+.hzone31 {
+    font-size: 105%;
+}
+
+.hzone32 {
+    font-size: 500%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnzone31 {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.btnzone32 {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+/* zone 4 started from here */
+
+.zone4 {
+    height: 700px;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+}
+
+.punchline {
+    height: 700px;
+    width: 50%;
+    background-color: rgb(227, 209, 190);
+}
+
+.login {
+    height: 700px;
+    width: 50%;
+    background-image: url(./nikeimages/login12.webp);
+    background-size: 100% 100%;
+}
+
+.hzone41 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 70px;
+}
+
+.hzone42 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.btnzone4 {
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin: 3px 0px 0px 3px;
+}
+
+.btnbox {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 20px 0px 0px 60px;
+}
+
+/* zone 5 started from here */
+
+.zone5 {
+    height: 480px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    line-height: 35px;
+    margin-top: 30px;
+
+}
+
+.z5product {
+    height: 500px;
+    width: 20%;
+    padding: 0px 15px;
+
+
+}
+
+
+
+.last {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+.fa-facebook:hover {
+    color: rgb(18, 91, 187);
+}
+
+.fa-instagram:hover {
+    color: rgb(243, 28, 250);
+}
+
+.fa-twitter:hover {
+    color: rgb(99, 179, 226);
+}
+
+.fa-youtube:hover {
+    color: rgb(236, 34, 27);
+}
+
+
+@media only screen and (max-width:1000px){
+    .scroll {
+        display:none;
+    }
+    .dropbox-content{
+        display: block;
+    }
+    .blank3 {
+        justify-content: space-between;}
+
+    .divi{
+        height: 500px;
+        width: 100%;
+}
+
+    .imagedivi{
+     height: 500px;
+     width: 100%;
+    }
+    .hzone32 {
+        font-size: 350%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .anim {
+        height: 70px;
+        width:350px;
+        margin: 30px 20px 10px 10px;
+}
+.zone5{
+    font-size: 85%;
+}
+
+}
+@media only screen and (max-width:750px){
+    .shoes {
+        height:180px;
+        width: 180px;
+        margin-top: 50px;
+    }
+    .anim {
+        height: 60px;
+        width:300px;
+        margin: 30px 20px 10px 10px;
+    
+    }
+    .category{
+        height: 45px;
+        width:100%;
+        font-size: 110%;
+        background-color: rgb(255, 255, 255);
+
+    }
+    
+    .hzone32 {
+        font-size: 280%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+@media only screen and (max-width:650px){
+    .shoes {
+        height:150px;
+        width: 150px;
+        margin-top: 100px;
+    }
+    .divi{
+        height: 600px;
+        width: 100%;
+}
+.imagedivi{
+    height: 600px;
+    width: 100%;
+}
+
+.img {
+        height: 25%;
+        width: 25%;       
+}
+
+.hzone41 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hzone42 {
+    font-size: 50px;
+}
+.btnbox {
+    height: 35px;
+    width: 130px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btnzone4 {
+    height: 36px;
+    width: 134px;
+}
+.zone5{
+    font-size: 69%;
+}
+.last{
+    font-size: 80%;
+}
+.zone4{
+    width: 100%;
+    height: 1100px;
+    flex-direction: column;
+}
+.punchline{
+    width: 100%;
+    height:550px;
+}
+.login{
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+
+}
+@media only screen and (max-width:550px){
+    
+    .zone2{
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+        margin-top: 80px;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .jordan{
+        width: 100%;
+        height: 700px;
+
+    }
+    .animation{
+        width: 100%;
+        height: 600px;
+    }
+    .btnshopnow {
+        height: 40px;
+        width:50px;
+        margin-right: 100px;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    .divi{
+        height: 500px;
+        width: 100%;
+    }
+    .imagedivi{
+        height: 500px;
+        width: 100%;
+    }
+    .img {
+        height: 25%;
+        width: 30%;
+    
+}
+.btnbox {
+    height: 30px;
+    width: 110px;
+    margin-right: 100px;
+}
+.btnzone4 {
+    height: 32px;
+    width: 115px;
+}
+.zone5{
+    font-size: 50%;
+}
+.last{
+    font-size:60% ;
+}
+
+}
+
+
+
+
+
